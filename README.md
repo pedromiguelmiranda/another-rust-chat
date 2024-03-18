@@ -10,9 +10,6 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/pedromiguelmiranda/another-rust-chat">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
 <h3 align="center"> Another rust chat</h3>
 
@@ -63,19 +60,17 @@ or handling disconnected clients gracefully. In production-level code, you'd wan
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
+Rust toolkit installed. please refer to Rust [documentation](https://www.rust-lang.org/)
 
-
-### Installation/execution
+### Installation
 
 build and run
 ```
 $ cargo build
-$ cargo run
 ```
+
+If you want to execute locally in your network on several computers you might need to allow the used port on your local firewall.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,10 +79,14 @@ $ cargo run
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
+- start the server  (inside chat-server folder)
+```
+$ cargo run
+```
+- start the chat clients (inside chat-client folder)
+```
+$ cargo run
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
